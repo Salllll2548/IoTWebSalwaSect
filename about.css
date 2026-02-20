@@ -1,40 +1,87 @@
+@font-face {
+    font-family: 'TH K2D';
+    src: url('TH K2D July8.ttf') format('truetype');
+    font-style: normal;
+}
+
+* {
+    font-family: 'TH K2D';
+}
+
 nav {
-    background-color: #89c4f4; /* สีฟ้าอ่อนด้านบน */
     display: flex;
-    justify-content: flex-end;
-    padding: 10px 20px;
-    list-style: none;
-    border-radius: 0 0 20px 20px;
+    align-items: flex-end; /* ให้ทุกแท็บแนบชิดติดเส้นขอบด้านล่าง */
+    list-style: none; /* เอาจุดหน้า li ออก */
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
 
 nav li {
-    margin-left: 20px;
+    margin-left: 0px;
+    flex: 1;
+    text-align: center;
 }
 
 nav li a {
     text-decoration: none;
     color: #002d62;
-    font-weight: bold;
-    font-size: 14px;
+    font-weight: normal;
+}
+.Iot1 {
+    background-color: #78C0E6; 
+    border-radius: 30px 30px 0 0;
+    border-right: 2px solid #161942;
+    padding: 25px 50px;
+    z-index: 2; /* ให้อยู่ด้านบนสุด */
+    position: relative;
+}
+
+.Iot1 a {
+    color: #161942;
+    font-size: 24px;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15); /* เงาบางๆ ให้ตัวอักษรดูมีมิติ */
+}
+
+/* Tab ที่ 2, 3, 4: Inactive */
+.Iot2, .continuous, .poTopoEgg {
+    background-color: #184274; /* สีน้ำเงินเข้ม */
+    border-radius: 20px 20px 0 0;
+    padding: 15px 30px;
+    box-shadow: inset 0px 8px 15px rgba(0, 0, 0, 0.2); /* เงาด้านในให้ดูเป็นมิติเว้าลง */
+}
+
+.Iot2 a, .continuous a, .poTopoEgg a {
+    color: #e8ebcd; /* สีตัวอักษรออกเหลือง/ครีมอ่อนๆ */
+    font-size: 18px;
 }
 
 h1 {
-    background-color: #89c4f4;
+    background-color: #78C0E6;
     color: white;
     text-align: center;
-    padding: 40px 20px;
-    font-size: 2.5rem;
+    padding: 40px 0px;
+    font-size: 60px;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.NameEng {
+    font-size: 30px;
+    font-weight: normal;
 }
 
 .WhatIsIoT {
-    padding: 40px 10% ;
+    padding: 10px 10% ;
     line-height: 1.8;
     background-color: white;
     text-align: left;
+    font-size: 25px;
 }
 
 .money {
-    background-color: #1a1a3a; /* สีน้ำเงินเข้ม */
+    background-color: #161942; 
     color: white;
     display: flex;
     justify-content: center;
@@ -43,32 +90,32 @@ h1 {
     gap: 20px;
 }
 
-.money1 { font-size: 1.2rem; }
-.money2 { font-size: 3rem; font-weight: bold; color: #fff; }
-.money3 { font-size: 1rem; }
+.money1 { font-size: 25px; }
+.money2 { font-size: 75px; font-weight: normal; color: #fff; }
+.money3 { font-size: 25px; }
 
-.career {
-    padding: 40px 10%;
-    background-color: #fff;
-}
-
-.career span {
-    font-size: 1.5rem;
-    font-weight: bold;
+.careerH {
     display: flex;
+    justify-content: left;
     align-items: center;
-    margin-bottom: 20px;
+    gap: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px 10% 0px;
+}
+.career {
+    padding: 2px 10% 20px;
+    background-color: #fff;
 }
 
 .plus img {
     width: 25px;
-    margin-left: 10px;
 }
 
 .CareerContent ul {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* แบ่งเป็น 2 คอลัมน์เหมือนในรูป */
     list-style: none;
+    font-size: 23px;
     gap: 10px;
 }
 
@@ -79,7 +126,7 @@ h1 {
 }
 
 .gallery {
-    background-color: #fceea7; /* พื้นหลังสีเหลืองนวลตามรูป */
+    background-color: #F3E6A2; /* พื้นหลังสีเหลืองนวลตามรูป */
     padding: 50px 20%;
 }
 
