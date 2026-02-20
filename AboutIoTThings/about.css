@@ -95,23 +95,32 @@ h1 {
 .money3 { font-size: 25px; }
 
 .careerH {
+    cursor: pointer;
     display: flex;
     justify-content: left;
     align-items: center;
     gap: 10px;
     font-size: 25px;
     font-weight: bold;
-    padding: 20px 10% 0px;
+    padding: 20px 10% 20px;
 }
 .career {
-    padding: 2px 10% 20px;
+    display: none;
+    padding: 1px 10% 20px;
     background-color: #fff;
 }
-
+.career.show {
+    display: block;
+}
+.careerH .plus img {
+    transition: transform 0.3s ease;
+}
+.careerH.active .plus img {
+    transform: rotate(45deg); 
+}
 .plus img {
     width: 25px;
 }
-
 .CareerContent ul {
     display: grid;
     list-style: none;
