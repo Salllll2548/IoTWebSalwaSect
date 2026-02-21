@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academics</title>
+    <link rel="stylesheet" href="Academics2.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="Iot1AC"><a href="Academics1.html">วิศวกรรมไอโอทีและสารสนเทศ</a></li>
+            <li class="Iot2AC"><a href="Academics2.html">2 ปริญญา</a></li>
+            <li class="continuousAC"><a href="Academics3.html">ต่อเนื่อง</a></li>
+            <li class="poTopoEggAC"><a href="Academics4.html">ป.โท-ป.เอก</a></li>
+        </ul>
+    </nav>
+    <h1>
+        วิศวกรรมระบบไอโอทีและสารสนเทศ<br>
+        <span class="NameEngAC">B.Eng. (IoT system and Information Engineering)</span>
+    </h1>
+    <section class="curriculum-container">
+        <div class="year-badge">1st Year</div>
+
+        <div class="semesters-wrapper">
+            <div class="semester-box">
+                <h2 class="semester-title">Semester 1</h2>
+
+                <div class="subject-list" id="sem1-subjects">
+                    <div class="subject-item bg-yellow">
+                        <div class="dots">&#8942;</div>
+                        <div class="subject-info">
+                            <div class="subject-name">Calculus1 (3)</div>
+                            <hr class="divider">
+                            <div class="subject-code">01006030</div>
+                        </div>
+                    </div>
+
+                    <div class="subject-item bg-yellow">
+                        <div class="dots">&#8942;</div>
+                        <div class="subject-info">
+                            <div class="subject-name">GEN PHYS1 (3)</div>
+                            <hr class="divider">
+                            <div class="subject-code">01006020</div>
+                        </div>
+                    </div>
+
+                    <div class="subject-item bg-blue">
+                        <div class="dots">&#8942;</div>
+                        <div class="subject-info">
+                            <div class="subject-name">CIRCUIT ELEC (3)</div>
+                            <hr class="divider">
+                            <div class="subject-code">01006604</div>
+                        </div>
+                    </div>
+
+                    <div class="subject-item bg-pink">
+                        <div class="dots">&#8942;</div>
+                        <div class="subject-info">
+                            <div class="subject-name">DIGI CITIZEN (3)</div>
+                            <hr class="divider">
+                            <div class="subject-code">90641007</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="action-btn" id="sem1-btn" onclick="toggleSemester('sem1-subjects', 'sem1-btn')">View Subjects</button>
+            </div>
+            <div class="semester-box">
+                <h2 class="semester-title">Semester 2</h2>
+
+                <div class="subject-list" id="sem2-subjects">
+                    <div class="subject-item bg-yellow">
+                        <div class="dots">&#8942;</div>
+                        <div class="subject-info">
+                            <div class="subject-name">Calculus1 (3)</div>
+                            <hr class="divider">
+                            <div class="subject-code">01006030</div>
+                        </div>
+                    </div>
+
+                    <div class="subject-item bg-yellow">
+                        <div class="dots">&#8942;</div>
+                        <div class="subject-info">
+                            <div class="subject-name">GEN PHYS1 (3)</div>
+                            <hr class="divider">
+                            <div class="subject-code">01006020</div>
+                        </div>
+                    </div>
+
+                    <div class="subject-item bg-blue">
+                        <div class="dots">&#8942;</div>
+                        <div class="subject-info">
+                            <div class="subject-name">CIRCUIT ELEC (3)</div>
+                            <hr class="divider">
+                            <div class="subject-code">01006604</div>
+                        </div>
+                    </div>
+
+                    <div class="subject-item bg-pink">
+                        <div class="dots">&#8942;</div>
+                        <div class="subject-info">
+                            <div class="subject-name">DIGI CITIZEN (3)</div>
+                            <hr class="divider">
+                            <div class="subject-code">90641007</div>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="action-btn" id="sem2-btn" onclick="toggleSemester('sem2-subjects', 'sem2-btn')">View Subjects</button>
+            </div>
+        </div>
+
+    </section>
+    <section class="curriculum-container">
+        <div class="year-badge">2nd Year</div>
+
+        <div class="semesters-wrapper">
+            <div class="semester-box">
+                <h2 class="semester-title">Semester 1</h2>
+
+                <div class="subject-list" id="y2-sem1-subjects">
+                    <div class="subject-item bg-yellow">
+                        <div class="dots">&#8942;</div>
+                        <div class="subject-info">
+                            <div class="subject-name">วิชาใหม่ ปี2 เทอม1 (3)</div>
+                            <hr class="divider">
+                            <div class="subject-code">0100XXXX</div>
+                        </div>
+                    </div>
+                    </div>
+
+                <button class="action-btn" id="y2-sem1-btn" onclick="toggleSemester('y2-sem1-subjects', 'y2-sem1-btn')">View Subjects</button>
+            </div>
+
+            <div class="semester-box">
+                <h2 class="semester-title">Semester 2</h2>
+
+                <div class="subject-list" id="y2-sem2-subjects">
+                    <div class="subject-item bg-blue">
+                        <div class="dots">&#8942;</div>
+                        <div class="subject-info">
+                            <div class="subject-name">วิชาใหม่ ปี2 เทอม2 (3)</div>
+                            <hr class="divider">
+                            <div class="subject-code">0100XXXX</div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="action-btn" id="y2-sem2-btn" onclick="toggleSemester('y2-sem2-subjects', 'y2-sem2-btn')">View Subjects</button>
+            </div>
+        </div>
+    </section>
+    <section class="curriculum-container">
+        <div class="year-badge">3rd Year</div>
+
+        <div class="semesters-wrapper">
+            <div class="semester-box">
+                <h2 class="semester-title">Semester 1</h2>
+
+                <div class="subject-list" id="y3-sem1-subjects">
+                    <div class="subject-item bg-yellow">
+                        <div class="dots">&#8942;</div>
+                        <div class="subject-info">
+                            <div class="subject-name">วิชาใหม่ ปี3 เทอม1 (3)</div>
+                            <hr class="divider">
+                            <div class="subject-code">0100XXXX</div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="action-btn" id="y3-sem1-btn" onclick="toggleSemester('y3-sem1-subjects', 'y3-sem1-btn')">View Subjects</button>
+            </div>
+
+            <div class="semester-box">
+                <h2 class="semester-title">Semester 2</h2>
+
+                <div class="subject-list" id="y3-sem2-subjects">
+                    <div class="subject-item bg-blue">
+                        <div class="dots">&#8942;</div>
+                        <div class="subject-info">
+                            <div class="subject-name">วิชาใหม่ ปี3 เทอม2 (3)</div>
+                            <hr class="divider">
+                            <div class="subject-code">0100XXXX</div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="action-btn" id="y3-sem2-btn" onclick="toggleSemester('y3-sem2-subjects', 'y3-sem2-btn')">View Subjects</button>
+            </div>
+        </div>
+    </section>
+    <section class="curriculum-container">
+        <div class="year-badge">4th Year</div>
+
+        <div class="semesters-wrapper">
+            <div class="semester-box">
+                <h2 class="semester-title">Semester 1</h2>
+
+                <div class="subject-list" id="y4-sem1-subjects">
+                    <div class="subject-item bg-pink">
+                        <div class="dots">&#8942;</div>
+                        <div class="subject-info">
+                            <div class="subject-name">วิชาใหม่ ปี4 เทอม1 (3)</div>
+                            <hr class="divider">
+                            <div class="subject-code">0100XXXX</div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="action-btn" id="y4-sem1-btn" onclick="toggleSemester('y4-sem1-subjects', 'y4-sem1-btn')">View Subjects</button>
+            </div>
+
+            <div class="semester-box">
+                <h2 class="semester-title">Semester 2</h2>
+
+                <div class="subject-list" id="y4-sem2-subjects">
+                    <div class="subject-item bg-yellow">
+                        <div class="dots">&#8942;</div>
+                        <div class="subject-info">
+                            <div class="subject-name">วิชาใหม่ ปี4 เทอม2 (3)</div>
+                            <hr class="divider">
+                            <div class="subject-code">0100XXXX</div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="action-btn" id="y4-sem2-btn" onclick="toggleSemester('y4-sem2-subjects', 'y4-sem2-btn')">View Subjects</button>
+            </div>
+        </div>
+    </section>
+    <script src="Academics2.js"></script>
+</body>
+
+</html>
