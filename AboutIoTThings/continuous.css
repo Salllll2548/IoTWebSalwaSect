@@ -28,33 +28,32 @@ nav li a {
     color: #002d62;
     font-weight: normal;
 }
-.Iot1 {
+.continuous {
     background-color: #78C0E6; 
     border-radius: 30px 30px 0 0;
     border-right: 2px solid #161942;
-    padding: 15px 10px;
+    padding: 25px 50px;
     z-index: 2; /* ให้อยู่ด้านบนสุด */
     position: relative;
     width: 40%;
 }
 
-.Iot1 a {
+.continuous a {
     color: #161942;
     font-size: 24px;
     font-weight: 500;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15); /* เงาบางๆ ให้ตัวอักษรดูมีมิติ */
 }
 
-/* Tab ที่ 2, 3, 4: Inactive */
-.Iot2, .continuous, .poTopoEgg {
+.Iot1, .Iot2, .poTopoEgg {
     background-color: #184274;
     border-radius: 20px 20px 0 0;
-    padding: 15px 30px;
+    padding: 15px 0px;
     box-shadow: inset 0px 8px 15px rgba(0, 0, 0, 0.2);
     width: 20%;
 }
 
-.Iot2 a, .continuous a, .poTopoEgg a {
+.Iot1 a, .Iot2 a, .poTopoEgg a {
     color: #e8ebcd; /* สีตัวอักษรออกเหลือง/ครีมอ่อนๆ */
     font-size: 18px;
 }
@@ -96,7 +95,7 @@ h1 {
 .money2 { font-size: 75px; font-weight: normal; color: #fff; }
 .money3 { font-size: 25px; }
 
-.careerH {
+/*.careerH {
     cursor: pointer;
     display: flex;
     justify-content: left;
@@ -135,7 +134,7 @@ h1 {
     color: #333;
     margin-right: 10px;
 }
-
+*/
 .gallery {
     background-color: #F3E6A2; /* พื้นหลังสีเหลืองนวลตามรูป */
     padding: 50px 20%;
